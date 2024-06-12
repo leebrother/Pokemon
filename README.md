@@ -66,7 +66,7 @@ And, for iOS, CocoaPods need to be installed, so type in the following commands:
 	>pod install
 	>cd ..
 
-**Please note, there may be warnings displayed because of version mismatches. These warning can be ignored as long as it can build.**
+**Please note, there may be warnings displayed because of version mismatches. These warnings can be ignored as long as it can build.**
 
 In the App.tsx file, React Navigator tags need to be added. Make sure you first import both NavigationContainer and createNativeStackNavigator from 
 React Navigation by typing in the following at the top of the app.tsx file:
@@ -161,7 +161,7 @@ const myState = useSelector((state)=> state.myState);
 
 The useSelector hook is written in the React Native component to retrieve the intended state.
 
-**Please note: since this was a simple three-screen React Native app, there was no need to use Redux. This is only used
+Please note: since this was a simple three-screen React Native app, there was no need to use Redux. This is only used
 when you have more screens and tracking state changes using reducer is needed once the app is more complex with a structured state tree. 
 In smaller apps, React Context API (createContext in this case for global variables. No need for props drilling!) 
 or the useReducer hook can suffice in managing states. When I coded this out, I considered code quality and this made the code simpler and 
