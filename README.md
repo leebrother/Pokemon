@@ -163,7 +163,7 @@ The useSelector hook is written in the React Native component to retrieve the in
 
 **Please note: since this was a simple three-screen React Native app, there was no need to use Redux. This is only used
 when you have more screens and tracking state changes using reducer is needed once the app is more complex with a structured state tree. 
-In smaller apps, React Context API (createContext in this case for global variables and prop drilling) 
+In smaller apps, React Context API (createContext in this case for global variables. No need for props drilling!) 
 or the useReducer hook can suffice in managing states. When I coded this out, I considered code quality and this made the code simpler and 
 easier to understand by the other coders so that it is highly flexible when changes to the code are needed.
 
