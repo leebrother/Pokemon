@@ -175,4 +175,13 @@ Happy coding! =)
 To run for Android, have an Android emulator running or a device connected.
 Then type on the command prompt >C:\Users\Patrick\Pokemon && npx react-native run-android   
 
+---------------
+
+In the React Native Pokemon Project under src folder (or directory):
+
+App.tsx is the basic app layout tsx file
+
+screens folder: Add CartScreen.js, ProductDetailsScreen.js & ProductsScreen.js to this folder or directory
+components folder: Add Product.js, CartIcon.js & CartDetails.js to this folder or directroy
+
 -pl
