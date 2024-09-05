@@ -182,6 +182,9 @@ In the React Native Pokemon Project under src folder (or directory):
 App.tsx is the basic app layout tsx file
 
 screens folder: Add CartScreen.js, ProductDetailsScreen.js & ProductsScreen.js to this folder or directory
+
 components folder: Add Product.js, CartIcon.js & CartDetails.js to this folder or directory
+
+store folder: Add actions.js & index.js to this folder or directory (these are basic Redux components, even though they are not used)
 
 -pl
